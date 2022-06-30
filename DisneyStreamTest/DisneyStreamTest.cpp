@@ -1,4 +1,4 @@
-// DisneyStreamingTest.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// DisneyStreamTest.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <iostream>
@@ -17,7 +17,7 @@ int main()
 {
     //1. Fetch file from URL
     std::string url = "https://lw.bamgrid.com/2.0/hls/vod/bam/ms02/hls/dplus/bao/master_unenc_hdr10_all.m3u8";
-    std::string savepath = "C:\\Users\\Chris\\OneDrive\\Documents\\GitHub\\DisneyStreamingTest\\master_unenc_hdr10_all.m3u8";
+    std::string savepath = "C:\\Users\\Chris\\Downloads\\master_unenc_hdr10_all.m3u8";
 
     //download the file and if successful continue
     if (fetchFile(url, savepath) == S_OK)
